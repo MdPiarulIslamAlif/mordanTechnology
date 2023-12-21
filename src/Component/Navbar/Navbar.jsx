@@ -1,6 +1,12 @@
 import { calcLength } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+  const navlink = <>
+  <li><NavLink to={"/"}>Home</NavLink></li>
+  
+  </>
 
 
 };
