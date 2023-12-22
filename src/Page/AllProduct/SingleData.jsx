@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 const SingleData = ({product}) => {
     const {id, name, price, photo } = product;
     return (
-      <motion.div>
+      <motion.div
+      whileHover={{scale:1.1 }}
+      >
         <div className="card card-compact h-[400px] bg-base-100 shadow-xl">
           <figure>
             <img className='h-[200px] w-full' src={photo} alt="image" />
