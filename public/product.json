@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "SonicWave Pro-X",
+    "price": 19.99,
+    "photo": "https://i.ibb.co/8sNR1HG/baner1-2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Audiophile Elite HD",
+    "price": 29.99,
+    "photo": "https://i.ibb.co/7k0RCnw/baner1-5.jpg"
+  },
+  {
+    "id": 3,
+    "name": "BassMaster 5000",
+    "price": 39.99,
+    "photo": "https://i.ibb.co/8sNR1HG/baner1-2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Noise-CancelXperience",
+    "price": 49.99,
+    "photo": "https://i.ibb.co/9nXyFYR/baner1-9.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Crystal Clear Harmony",
+    "price": 59.99,
+    "photo": "https://i.ibb.co/L0qbW1F/baner1-6.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Surround Sound Bliss",
+    "price": 69.99,
+    "photo": "https://i.ibb.co/MpkfLWG/baner1-7.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Wireless BeatSync",
+    "price": 79.99,
+    "photo": "https://i.ibb.co/L0qbW1F/baner1-6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Echo-Proof Echo",
+    "price": 89.99,
+    "photo": "https://i.ibb.co/MpkfLWG/baner1-7.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Stealth Mode Sonic",
+    "price": 99.99,
+    "photo": "https://i.ibb.co/XzcStCG/baner1-8.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Virtual Reality Vibe",
+    "price": 109.99,
+    "photo": "https://i.ibb.co/zZbYBrS/baner1-10.jpg"
+  }
+]
