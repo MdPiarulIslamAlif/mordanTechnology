@@ -1,4 +1,5 @@
 import Banner from "../../Component/Banner/Banner";
+import DesignSection from "../../Component/DesignSection/DesignSection";
 import Navbar from "../../Component/Navbar/Navbar";
 import WirelessHeadPhone from "../../Component/WirelessHeadPhone/WirelessHeadPhone";
 
@@ -8,10 +9,7 @@ const Home = () => {
             <Navbar />
             <Banner />
             <WirelessHeadPhone />
-            <h1 className="text-2xl"> this home page
-
-                
-            </h1>
+            <DesignSection />
         </div>
     );
 };
