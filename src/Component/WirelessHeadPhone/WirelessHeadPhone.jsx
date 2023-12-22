@@ -23,7 +23,7 @@ const WirelessHeadPhone = () => {
 
   return (
     <div
-      className=" max-w-7xl mx-auto flex justify-center gap-8 items-center
+      className=" max-w-7xl mx-auto flex  flex-col md:flex-row lg:flex-row justify-center gap-8 items-center
       
       "
     >

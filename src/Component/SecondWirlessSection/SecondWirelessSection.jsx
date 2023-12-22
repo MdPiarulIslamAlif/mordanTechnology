@@ -5,8 +5,8 @@ import banner from "../../assets/bannerImg/baner1 (3).jpg"
 const SecondWirelessSection = () => {
     return (
       <div
-        className=" max-w-7xl mx-auto flex justify-center mt-24 gap-8 items-center
-      
+        className=" max-w-7xl mx-auto  flex flex-col md:flex-row lg:flex-row justify-center mt-24 gap-8 items-center
+       
       "
       >
         <motion.div
