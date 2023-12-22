@@ -15,17 +15,16 @@ const Banner = () => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div
-      style={{
-        backgroundColor:"black",
-        backgroundBlendMode: "multiply" }}
-      className="max-h-screen bg-black/80  "
+       className="mb-24"
     >
       <AutoplaySlider
         play={true}
         cancelOnInteraction={false} // should stop playing on user interaction
         interval={6000}
       >
-        <div data-src={banner1} />
+         <div>
+          <img src={banner1} alt="banner" />
+         </div>
         <div data-src={banner2} />
         <div data-src={banner3} />
         <div data-src={banner4} />
