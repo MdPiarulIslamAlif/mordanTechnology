@@ -17,8 +17,8 @@ const DesignSection = () => {
             <motion.div
               initial={{ x: -300, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{duration:5, delay: 0.3}}
-              viewport={{once: true}}
+              transition={{duration:3, delay: 0.1}}
+              // viewport={{once: true}}
              
             
               className="max-w-md"

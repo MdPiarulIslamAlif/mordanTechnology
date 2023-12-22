@@ -1,30 +1,32 @@
-import React from 'react';
+import { motion } from "framer-motion";
+
 
 const Shared = () => {
     
     const container = {
-      hidden: { opacity: 0 },
-      show: {
-        opacity: 1,
-        transition: {
-          staggerChildren: 0.5,
-        },
-      },
-    };
-
-    const item = {
-      hidden: { opacity: 0 },
-      show: { opacity: 1 },
-    };
+    hidden:{
+        y:100,
+        opacity:0
+    },
+    show:{
+        y:0,
+        opacity:1,
+        Transition:{
+            duration:2,
+            dealy:0.5,
+        }
+    }
+    }
 
     
     
     return (
-        <div>
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-        </div>
+      <motion.div
+        variants={container}
+        initial="hidden"
+        //animat="show"
+        whileInView="show"
+      ></motion.div>
     );
 };
 
